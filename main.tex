@@ -1,0 +1,58 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\usepackage{enumitem}
+\setlist[itemize]{nosep}
+
+
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+% \usepackage[usenames]{xcolor}  %%% this does not work = thanks to idiots from modernCV package.
+% 
+\usepackage[scale=0.87]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
+
+\firstname{Екатерина}
+\familyname{Балакина}
+
+\address{Санкт-Петербург}{Россия}
+\phone{+79006522842}
+\email{kato.balakina@gmail.com}
+%\email{andrewrayskiy@gmail.com}
+\renewcommand\refname{Selected publications}
+\nopagenumbers{} % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\begin{document}
+\makecvtitle
+
+\section{Образование}
+\cvitem{Бакалавр}{Санкт-Петербургский Государственный Университет}
+\cvitem{}{Кафедра системного программирования}
+\cvitem{}{01.09.2015 - 31.08.2019}
+
+\section{Опыт работы}
+\cvitem{Лето 2019}{\href{https://yandex.com/company/}{\underline{Яндекс}} -- cтажер-разработчик}
+\cvitem {} {Typescript, React, RxJS}
+\cvitem {} {Разработка интерфейсов облачной инфраструктуры, проект Wall-E -- Hardware as a Service внутри Яндекса}
+\cvitem {} {{Улучшила покрытие End-to-End тестами (TestCafe). Исправляла ошибки в коде, правила верстку в соответствии с замечаниями дизайнера. Добавила новую функциональность: множество мелких задач по запросам пользователей; фронтенд для работы с новыми возможностями бэкенда.}}
+
+\section{Другой опыт}
+\cvitem{Лето 2014}{\textbf{Участник Летней Комьютерной Школы, параллель B'}}
+\cvitem{2015}{\textbf{Победитель регионального этапа Всероссийской Олимпиады Школьников по информатике}}
+\cvitem{2016}{\textbf{Сборы по программированию Moscow Workshops ACM ICPC}}
+
+\section{Выпускная квалификационная работа}
+\cvitem{2019}{\textbf{Интеграция робототехнической ОС (ROS) с кибернетическим контроллером ТРИК}}
+\cvitem{}{C/C++, Qt, ROS, ROS2, CoAP, MQTT-SN}
+
+\section{Технические навыки}
+\cvitem{}{Хорошее понимание основных алгоритмов и структур данных}
+\cvitem{}{HTML, CSS, SCSS, JavaScript, Typescript, React, C/C++, Linux, Git}
+
+\section{Языки}
+\cvlanguage{Английский}{\textbf{B2/C1}}{}
+\cvlanguage{Русский}{\textbf{Родной}}{}
+
+\end{document}
